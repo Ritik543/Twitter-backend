@@ -1,0 +1,48 @@
+{
+  "name": "twitter-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \" npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "jasmine-core": "^5.1.2",
+    "karma": "^6.4.3",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-webpack": "^5.0.1",
+    "prisma": "^5.13.0",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@aws-sdk/client-s3": "^3.577.0",
+    "@aws-sdk/s3-request-presigner": "^3.577.0",
+    "@prisma/client": "^5.13.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1",
+    "graphql-request": "^7.0.1",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "micro-cors": "^0.1.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "tsc-init": "^2.1.0"
+  }
+}
